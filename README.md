@@ -1,10 +1,10 @@
 # C++ with WebUI
 
-This repository demonstrates how to create a C++ backend software working together with a Javascript frontend.
+This repository **demonstrates how to create a C++ backend** software working together with a **Javascript frontend**.
 
 This is a very simple and ad-hoc solution without any claim to completeness regarding the possibilities to communicate or other possible solutions to the problem.
 
-This repository does not discuss possibilities to encode/decode messages (marshall/unmarshall, serialize/deserialize). Instead of using some sophisticated data representation (like JSON or [MessagePack](https://msgpack.org/)) and a schema (like [JSON Schema](https://json-schema.org/)) together with some code generation (like [Quicktype](https://quicktype.io/)), we just transfer raw string or binary blobs in this example.
+This repository does not discuss possibilities to encode/decode messages (marshall/unmarshall, serialize/deserialize). Instead of using some sophisticated data representation (like JSON or [MessagePack](https://msgpack.org/)) and a schema (like [JSON Schema](https://json-schema.org/)) together with some code generation (like [Quicktype](https://quicktype.io/)), we just transfer raw strings or binary blobs in this example.
 
 ## How to run/explore
 
