@@ -42,6 +42,12 @@ This repository does not discuss possibilities to encode/decode messages (marsha
   });
 ```
 
+## Use Case (what is this good for?)
+
+When implementing a network-only processing software (data-in, data-out), you can provide an easy to use command API with a nice UI to control you software and to interact with it.
+
+You could also do some number crunching in C++ and provide a network API for a software written in another language (like Typescript, Java, C# or Python) implementing the computationally less critical logic.
+
 ## Details
 
 The manual fronend code is about 120 LOC (including HTML and CSS via Svelte). The C++ code about 90 LOC.
