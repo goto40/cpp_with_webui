@@ -50,7 +50,7 @@ You could also do some number crunching in C++ and provide a network API for a s
   });
 ```
 
-**Python "tester"**: the C++ code can also be trigger via other languages (here: Python; can be executed in the docker via `python python/python_test.py`):
+**Python "tester"**: the C++ code can also be triggered via other languages (here: Python; can be executed in the docker via `python python/python_test.py`):
 ```python
 
 num=123;
