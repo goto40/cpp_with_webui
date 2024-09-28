@@ -1,0 +1,14 @@
+X{
+  "name": "C++ with WebUI",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "llvm-vs-code-extensions.vscode-clangd",
+    "svelte.svelte-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  //"postCreateCommand": "",
+  "remoteUser": "vscode"
+}

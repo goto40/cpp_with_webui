@@ -14,14 +14,16 @@ You could also do some number crunching in C++ and provide a network API for a s
 
 ## How to run/explore
 
-(Tested with ubuntu; node 20, cmake, g++, developer boost libraries installed)
-
 * You need node 20 for the frontend and a C++ compiler with cmake.
+  * Easiest way to get the dependencies: use the devcontainer (vscode plugin `ms-vscode-remote.remote-containers`; you will need Dockers enabled on your system!)
+  * Open project in the devcontainer and proceed with the next steps (all dependencies are included in the [Dockerfile](.devcontainer/Dockerfile))
 * Run `./build-and-run.sh`, it
   * compiles the webui (node, Typescript)
   * compiles the backend (cmake, C++)
   * runs the backend (which serves the webui and offers a simple API)
-* Once the backend runs, open the indicated URL [`http://0.0.0.0:18080`](http://0.0.0.0:18080).
+* Once the backend runs,
+  * open the indicated URL [`http://0.0.0.0:18080`](http://0.0.0.0:18080).
+  * Note: inside a docker you will need to use a forwarded address: ![image](./doc/images/docker.png)
 * The browser shows an page where
   * you can enter a number an trigger an action on C++ (the result is send back to the browser and is displayed).
   * you should see some logs ("some extra logs from C++ <num>" with increasing numbers).
