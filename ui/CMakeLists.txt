@@ -1,0 +1,1 @@
+add_custom_target(webui WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} COMMAND npm ci)
