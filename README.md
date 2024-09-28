@@ -15,7 +15,7 @@ This repository does not discuss possibilities to encode/decode messages (marsha
   * compiles the webui (node, Typescript)
   * compiles the backend (cmake, C++)
   * runs the backend (which serves the webui and offers a simple API)
-* Once the backend runs, open the indicated URL `http://0.0.0.0:18080/index.html`.
+* Once the backend runs, open the indicated URL [`http://0.0.0.0:18080`}(http://0.0.0.0:18080).
 * The browser shows an page where you can enter a number an trigger an action on C++ (the result is send back to the browser and is displayed).
 
 ![webui](./doc/images/webui.png)
