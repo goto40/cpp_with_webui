@@ -6,6 +6,12 @@ This is a very simple and ad-hoc solution without any claim to completeness rega
 
 This repository does not discuss possibilities to encode/decode messages (marshall/unmarshall, serialize/deserialize). Instead of using some sophisticated data representation (like JSON or [MessagePack](https://msgpack.org/)) and a schema (like [JSON Schema](https://json-schema.org/)) together with some code generation (like [Quicktype](https://quicktype.io/)), we just transfer raw strings or binary blobs in this example.
 
+## Use Case (what is this good for?)
+
+When implementing a network-only processing software (data-in, data-out), you can provide an easy to use command API with a nice UI to control you software and to interact with it.
+
+You could also do some number crunching in C++ and provide a network API for a software written in another language (like Typescript, Java, C# or Python) implementing the computationally less critical logic.
+
 ## How to run/explore
 
 (Tested with ubuntu; node 20, cmake, g++, developer boost libraries installed)
@@ -41,12 +47,6 @@ This repository does not discuss possibilities to encode/decode messages (marsha
     return res;
   });
 ```
-
-## Use Case (what is this good for?)
-
-When implementing a network-only processing software (data-in, data-out), you can provide an easy to use command API with a nice UI to control you software and to interact with it.
-
-You could also do some number crunching in C++ and provide a network API for a software written in another language (like Typescript, Java, C# or Python) implementing the computationally less critical logic.
 
 ## Details
 
