@@ -69,7 +69,7 @@ The manual **frontend code (WebUI) is about 120 LOC** (including HTML and CSS vi
 * Dependencies: C++20, Crow
 * main entry point: [main.cpp](./backend/main.cpp)
   * serves the UI (see: [CMakeLists.txt](./backend/CMakeLists.txt), where `CROW_STATIC_DIRECTORY` points to the folder, where the WebUI is compiled to)
-  * offers the URL `/compute1/<int>` to trigger a HTTP-GET command.
+  * offers the URL `/compute1/<int>` to trigger a HTTP-GET command (illustrated in the section **How to run/explore**).
   * offers a WebSocket at `/logs` to provide the crow logs to the WebUI
 
 ### WebUI
@@ -79,5 +79,5 @@ Note: to get full vscode support while editing you should open this folder in an
 * Dependencies: Typescript, Svelte 5
 * main entry point: [Simple.svelte](./ui/src/lib/Simple.svelte)
   * renders a UI
-  * allows to enter a number, allow to press a button to send a command (HTTP-GET) to C++ and display the answer from C++.
+  * allows to enter a number, allow to press a button to send a command (HTTP-GET; illustrated in the section **How to run/explore**) to C++ and display the answer from C++.
   * connects to the WebSocket server from C++ and shows all logs.
