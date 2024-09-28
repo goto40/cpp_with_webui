@@ -26,7 +26,7 @@ You could also do some number crunching in C++ and provide a network API for a s
   * Note: inside a docker you will need to use a forwarded address: ![image](./doc/images/docker.png)
 * The browser shows an page where
   * you can enter a number an trigger an action on C++ (the result is send back to the browser and is displayed).
-  * you should see some logs ("some extra logs from C++ <num>" with increasing numbers).
+  * you should see some logs ("some extra logs from C++ (number)" with increasing numbers).
 
 ![webui](./doc/images/webui.png)
 
