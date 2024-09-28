@@ -27,8 +27,8 @@ You could also do some number crunching in C++ and provide a network API for a s
 * The browser shows an page where
   * you can enter a number an trigger an action on C++ (the result is send back to the browser and is displayed).
   * you should see some logs ("some extra logs from C++ (number)" with increasing numbers).
-
-![webui](./doc/images/webui.png)
+  
+  ![webui](./doc/images/webui.png)
 
 **WebUI**: When pressing the button, Typescript request some C++ computation (`compute1/<number>`):
 
