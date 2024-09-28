@@ -30,7 +30,7 @@ You could also do some number crunching in C++ and provide a network API for a s
   
   ![webui](./doc/images/webui.png)
 
-**WebUI**: When pressing the button, Typescript request some C++ computation (`compute1/<number>`):
+**WebUI**: when pressing the button, the WebUI (Typescript) requests some C++ computation (`compute1/<number>`):
 
 ```ts
   const data = await fetch(
@@ -39,7 +39,7 @@ You could also do some number crunching in C++ and provide a network API for a s
     .then((x) => x.json());
 ```
 
-**Backend**: Then, the following C++ code executed:
+**Backend**: the `fetch` command above triggers the following C++ code:
 
 ```cpp
   CROW_ROUTE(app, "/compute1/<int>")
