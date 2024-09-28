@@ -62,7 +62,7 @@ The manual **frontend code (WebUI) is about 120 LOC** (including HTML and CSS vi
 
 ### WebUI
 
-Note: to get full vscode support while editing you should open this folder in an own vscode instance. You can `npm run dev` and connect to a separately running C++ backend.
+Note: to get full vscode support while editing you should open this folder in an own vscode instance. You can `npm run dev` and connect to a separately running C++ backend. You can also connect multiple times to the C++ server.
 
 * Dependencies: Typescript, Svelte 5
 * main entry point: [Simple.svelte](./ui/src/lib/Simple.svelte)
