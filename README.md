@@ -8,7 +8,7 @@ This repository does not discuss possibilities to encode/decode messages (marsha
 
 ## How to run/explore
 
-(Tested with ubuntu, developer boost libraries installed)
+(Tested with ubuntu; node 20, cmake, g++, developer boost libraries installed)
 
 * You need node 20 for the frontend and a C++ compiler with cmake.
 * Run `./build-and-run.sh`, it
