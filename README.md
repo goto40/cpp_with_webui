@@ -1,6 +1,6 @@
 # C++ with WebUI
 
-This repository **demonstrates how to create a C++ backend** software working together with a **Javascript frontend**.
+This repository **demonstrates how to create a C++ backend** software working together with a **Javascript/Typescript/Svelte frontend**.
 
 This is a very simple and ad-hoc solution without any claim to completeness regarding the possibilities to communicate or other possible solutions to the problem.
 
