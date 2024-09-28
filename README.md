@@ -50,6 +50,16 @@ You could also do some number crunching in C++ and provide a network API for a s
   });
 ```
 
+**Python "tester"**: the C++ code can also be trigger via other languages (here: Python):
+```python
+
+num=123;
+res = requests.get(f"http://localhost:18080/compute1/{num}")
+response = json.loads(res.text)
+
+assert response["result"] == num*2
+```
+
 ## Details
 
 The manual **frontend code (WebUI) is about 120 LOC** (including HTML and CSS via Svelte). The **C++ code about 90 LOC**.
