@@ -50,7 +50,7 @@ You could also do some number crunching in C++ and provide a network API for a s
 
 ## Details
 
-The manual fronend code is about 120 LOC (including HTML and CSS via Svelte). The C++ code about 90 LOC.
+The manual **frontend code (WebUI) is about 120 LOC** (including HTML and CSS via Svelte). The **C++ code about 90 LOC**.
 
 ### C++ Backend
 
