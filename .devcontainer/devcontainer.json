@@ -1,4 +1,4 @@
-X{
+{
   "name": "C++ with WebUI",
   "dockerFile": "Dockerfile",
   "settings": {
